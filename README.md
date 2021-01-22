@@ -85,6 +85,34 @@ optional arguments:
   -Y Y, --Y Y           This is the 'Ymax' variable : default = 10
   -t TIME, --time TIME  This is the 'Simulation time in ns' variable : default = 25
 ```
+It also show a quick check of your file. For example:<br>
+```sh
+$ hbonds_python -X 55 -Y 10 -t 50
+
+
+╒════════════════════════╤═══════╕
+│ Total time (ns)        │    50 │
+├────────────────────────┼───────┤
+│ xmin                   │     0 │
+├────────────────────────┼───────┤
+│ xmax                   │    55 │
+├────────────────────────┼───────┤
+│ ymin                   │     0 │
+├────────────────────────┼───────┤
+│ ymax                   │    10 │
+├────────────────────────┼───────┤
+│ Total number of frames │ 25001 │
+╘════════════════════════╧═══════╛
+╒═════════╤═════════════╕
+│ Frame   │   Time (ns) │
+╞═════════╪═════════════╡
+│ 1       │       0.000 │
+├─────────┼─────────────┤
+│ 2       │       0.002 │
+├─────────┼─────────────┤
+│ Last    │      50.000 │
+╘═════════╧═════════════╛
+```
 ## Demo Output Images
 ### GNUPLOT output example:<br>
 <p float="center">
