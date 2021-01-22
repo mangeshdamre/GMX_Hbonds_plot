@@ -1,8 +1,4 @@
 toilet -f mono12 -F metal HBONDS
-echo "
-|===========================================|
-| Run this script in MD_Traj_Protein Folder |
-|===========================================|";
 
 echo "===================";
 echo "Name of EM gro file"; 
