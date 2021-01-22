@@ -5,7 +5,7 @@ In the repository you will find two scripts in the scripts folder.
 - hbonds.py
 
 hbonds.sh will generate the data for the given selection in the script. One can update the selection for hbonds calculation in the script at the section "gmx make_ndx"
-""
+```
 gmx make_ndx -f ../$GRO -o hbonds.ndx << EOL
 a 2708-2792
 name 10 A
@@ -27,4 +27,4 @@ name 15 F
 
 q
 EOL
-""
+```
