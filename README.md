@@ -4,7 +4,7 @@ In the repository you will find two scripts in the scripts folder.
 - hbonds.sh
 - hbonds.py
 
-hbonds.sh will generate the data for the given selection in the script. One can update the selection for hbonds calculation in the script at the section "gmx make_ndx"
+**<a href="https://github.com/mangeshdamre/GMX_Hbonds_plot/blob/main/scripts/hbonds.sh" target="_blank">hbonds.sh</a>**) will generate the data for the given selection in the script. One can update the selection for hbonds calculation in the script at the section "gmx make_ndx"
 ```
 gmx make_ndx -f ../$GRO -o hbonds.ndx << EOL
 a 2708-2792
