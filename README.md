@@ -30,7 +30,7 @@ EOL
 ```
 To see the use of 'gmx make_ndx' run the following command in the bash terminal:
 ```sh
-gmx make_ndx -h
+$ gmx make_ndx -h
 ```
 
 The script is for protein assuming 6 protomers (chains=A..F). One can update the chains as per the protein of interest.
