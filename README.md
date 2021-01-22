@@ -52,7 +52,7 @@ EOL
 fi
 done
 ```
-The script will further generate the following plots using GNUPLOT. To generate plots using GNUPLOT one should have GNUPLOT installed in the system. How to install GNUPLOT? <a href="http://www.gnuplot.info/" target="_blank">GNUPLOT INSTALLATION</a><br>
+The script will further generate the following plots using GNUPLOT. To generate plots using GNUPLOT one should have GNUPLOT installed in the system. How to install GNUPLOT? <a href="https://github.com/mangeshdamre/GMX_APO_Protein" target="_blank">GNUPLOT INSTALLATION</a><br>
 - hbdist.png # Hydrogen Bond Distribution
 - hbnum.png # Hydrogen Bonds
 - hbnum_within0.3nm.png # Hydrogen Bonds
