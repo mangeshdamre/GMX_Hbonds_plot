@@ -28,6 +28,10 @@ name 15 F
 q
 EOL
 ```
+To see the use of 'gmx make_ndx' run the following command in the bash terminal:
+```sh
+gmx make_ndx -h
+```
 
 The script is for protein assuming 6 protomers (chains=A..F). One can update the chains as per the protein of interest.
 ```sh
@@ -52,7 +56,7 @@ EOL
 fi
 done
 ```
-'gmx hbond' will calculate all the hydrogen bonds for the selections specified through 'gmx make_ndx'. To see use of 'gmx hbond' run the following command in the bash terminal:
+'gmx hbond' will calculate all the hydrogen bonds for the selections specified through 'gmx make_ndx'. To see the use of 'gmx hbond' run the following command in the bash terminal:
 ```sh
 gmx hbond -h
 ```
