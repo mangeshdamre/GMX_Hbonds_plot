@@ -95,5 +95,3 @@ optional arguments:
 
 ### Python output example:<br>
 ![alt text](https://github.com/mangeshdamre/GMX_Hbonds_plot/blob/main/demo_output/hbnum-python.png?raw=true)
-
-https://github.com/mangeshdamre/GMX_Hbonds_plot/blob/6b9055dff6decc253b9c8c00ee269ce10bf8da2a/scripts/hbonds.sh#L26-L46
