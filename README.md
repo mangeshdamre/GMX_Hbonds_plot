@@ -58,7 +58,7 @@ done
 ```
 'gmx hbond' will calculate all the hydrogen bonds for the selections specified through 'gmx make_ndx'. To see the use of 'gmx hbond' run the following command in the bash terminal:
 ```sh
-gmx hbond -h
+$ gmx hbond -h
 ```
 The script will further generate the following plots using GNUPLOT. To generate plots using GNUPLOT one should have GNUPLOT installed in the system. How to install GNUPLOT? <a href="https://github.com/mangeshdamre/GMX_APO_Protein" target="_blank">GNUPLOT INSTALLATION</a><br>
 - hbdist.png # Hydrogen Bond Distribution
@@ -71,7 +71,7 @@ The script will further generate the following plots using GNUPLOT. To generate 
 To generate the plots using python, run the 'python3.8 hbonds.py' in the terminal.
 For help, run the following command:
 ```py
->> python3.8 hbonds.py -h
+$ python3.8 hbonds.py -h
 
 usage: hbonds.py [-h] [-x X] -X X [-y Y] -Y Y -t TIME
 
