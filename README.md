@@ -88,9 +88,9 @@ optional arguments:
 ## Demo Output Images
 ### GNUPLOT output example:<br>
 <p float="left">
-  <img src="https://github.com/mangeshdamre/GMX_Hbonds_plot/blob/main/demo_output/hbdist.png" width="100" />
-  <img src="https://github.com/mangeshdamre/GMX_Hbonds_plot/blob/main/demo_output/hbnum.png" width="100" /> 
-  <img src="https://github.com/mangeshdamre/GMX_Hbonds_plot/blob/main/demo_output/hbnum_smoothBezier.png" width="100" />
+  <img src="https://github.com/mangeshdamre/GMX_Hbonds_plot/blob/main/demo_output/hbdist.png" width="200" />
+  <img src="https://github.com/mangeshdamre/GMX_Hbonds_plot/blob/main/demo_output/hbnum.png" width="200" /> 
+  <img src="https://github.com/mangeshdamre/GMX_Hbonds_plot/blob/main/demo_output/hbnum_smoothBezier.png" width="200" />
 </p>
 
 ### Python output example:<br>
