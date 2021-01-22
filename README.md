@@ -52,6 +52,10 @@ EOL
 fi
 done
 ```
+'gmx hbond' will calculate all the hydrogen bonds for the selections specified through 'gmx make_ndx'. To see use of 'gmx hbond' run the following command in the bash terminal:
+```sh
+gmx hbond -h
+```
 The script will further generate the following plots using GNUPLOT. To generate plots using GNUPLOT one should have GNUPLOT installed in the system. How to install GNUPLOT? <a href="https://github.com/mangeshdamre/GMX_APO_Protein" target="_blank">GNUPLOT INSTALLATION</a><br>
 - hbdist.png # Hydrogen Bond Distribution
 - hbnum.png # Hydrogen Bonds
