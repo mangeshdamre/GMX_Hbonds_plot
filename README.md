@@ -67,7 +67,8 @@ The script will further generate the following plots using GNUPLOT. To generate 
 To generate the plots using python, run the 'python3.8 hbonds.py' in the terminal.
 For help, run the following command:
 ```py
-python3.8 hbonds.py -h
+>> python3.8 hbonds.py -h
+
 usage: hbonds.py [-h] [-x X] -X X [-y Y] -Y Y -t TIME
 
 Usage of HBONDS script!
