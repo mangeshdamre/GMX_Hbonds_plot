@@ -1,5 +1,5 @@
 # GMX_Hbonds_plot
-
+Calculate hydrogen bonds using **<a href="https://github.com/mangeshdamre/GMX_APO_Protein" target="_blank">GROMACS</a>** and plot them using **<a href="https://github.com/mangeshdamre/GMX_APO_Protein" target="_blank">GNUPLOT</a>** or PYTHON.
 In the repository you will find two scripts in the scripts folder.
 - hbonds.sh
 - hbonds.py
