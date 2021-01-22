@@ -87,10 +87,10 @@ optional arguments:
 ```
 ## Demo Output Images
 ### GNUPLOT output example:<br>
-<p float="left">
-  <img src="https://github.com/mangeshdamre/GMX_Hbonds_plot/blob/main/demo_output/hbdist.png" width="200" />
-  <img src="https://github.com/mangeshdamre/GMX_Hbonds_plot/blob/main/demo_output/hbnum.png" width="200" /> 
-  <img src="https://github.com/mangeshdamre/GMX_Hbonds_plot/blob/main/demo_output/hbnum_smoothBezier.png" width="200" />
+<p float="center">
+  <img src="https://github.com/mangeshdamre/GMX_Hbonds_plot/blob/main/demo_output/hbdist.png" width="225" />
+  <img src="https://github.com/mangeshdamre/GMX_Hbonds_plot/blob/main/demo_output/hbnum.png" width="225" /> 
+  <img src="https://github.com/mangeshdamre/GMX_Hbonds_plot/blob/main/demo_output/hbnum_smoothBezier.png" width="225" />
 </p>
 
 ### Python output example:<br>
