@@ -85,3 +85,5 @@ optional arguments:
   -Y Y, --Y Y           This is the 'Ymax' variable : default = 10
   -t TIME, --time TIME  This is the 'Simulation time in ns' variable : default = 25
 ```
+Python output:
+![alt text](https://github.com/mangeshdamre/GMX_Hbonds_plot/blob/main/demo_output/hbnum-python.png?raw=true)
