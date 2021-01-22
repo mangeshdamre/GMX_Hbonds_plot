@@ -3,7 +3,7 @@
 In the repository you will find two scripts in the scripts folder.
 - hbonds.sh
 - hbonds.py
-
+## hbonds.sh
 **<a href="https://github.com/mangeshdamre/GMX_Hbonds_plot/blob/main/scripts/hbonds.sh" target="_blank">hbonds.sh</a>** will generate the data for the given selection in the script. One can update the selection for hbonds calculation in the script at the section "gmx make_ndx"
 ```sh
 gmx make_ndx -f ../$GRO -o hbonds.ndx << EOL
@@ -62,3 +62,21 @@ The script will further generate the following plots using GNUPLOT. To generate 
 - hbnum_within0.3nm.png # Hydrogen Bonds
 - hbnum_smoothBezier.png # Hydrogen Bonds
 - hbnum_smoothBezier_within0.3nm.png # Hydrogen Bonds
+## hbonds.py
+
+To generate the plots using python, run the 'python3.8 hbonds.py' in the terminal.
+For help, run the following command:
+```py
+python3.8 hbonds.py -h
+usage: hbonds.py [-h] [-x X] -X X [-y Y] -Y Y -t TIME
+
+Usage of HBONDS script!
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -x X, --x X           This is the 'xmin' variable : default = 0
+  -X X, --X X           This is the 'xmax' variable : default = 25
+  -y Y, --y Y           This is the 'ymin' variable : default = 0
+  -Y Y, --Y Y           This is the 'Ymax' variable : default = 10
+  -t TIME, --time TIME  This is the 'Simulation time in ns' variable : default = 25
+```
