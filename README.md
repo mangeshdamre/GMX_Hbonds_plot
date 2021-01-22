@@ -31,7 +31,7 @@ EOL
 
 The script is for protein assuming 6 protomers (chains=A..F). One can update the chains as per the protein of interest.
 ```sh
-for chain in A B C D E F  
+for chain in A B C D E F  # Update the chain ids as per protein of interest.
 do
 mkdir $chain
 if [ ! -f $chain/hbnum$chain.xvg ]; then
